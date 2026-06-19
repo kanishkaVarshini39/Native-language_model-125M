@@ -19,7 +19,7 @@ Native-language_model-125M/
 │   └── utils.py                 # Text generation & helper functions
 │
 ├── train.py                     # CLI script to execute the pretraining loop
-├── GPT_based_LLM.ipynb          # Refactored notebook for interactive experimentation
+├── Model-125M.ipynb          # Refactored notebook for interactive experimentation
 ├── README.md                    # Project documentation
 ├── requirements.txt             # Python dependencies    
               
@@ -28,6 +28,6 @@ Native-language_model-125M/
 ## Getting Started
 1. Install dependencies: `pip install -r requirements.txt`
 2. Train the model locally: `python train.py`
-3. Try interactive text generation: Open `GPT_based_LLM.ipynb`
+3. Try interactive text generation: Open `Model-125M.ipynb`
 
 *Note: You can train the model from scratch locally using `train.py` to generate the `model_and_optimizer.pth` checkpoint file.*
