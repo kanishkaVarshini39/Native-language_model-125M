@@ -4,7 +4,7 @@ An implementation of a 124M parameter  autoregressive language model with the de
 
 ## Repository Structure
 
-'''text
+``` text
 Native-language_model-125M/
 │
 ├── data/
@@ -23,7 +23,7 @@ Native-language_model-125M/
 ├── README.md                    # Project documentation
 ├── requirements.txt             # Python dependencies    
               
-'''
+```
 
 ## Getting Started
 1. Install dependencies: `pip install -r requirements.txt`
